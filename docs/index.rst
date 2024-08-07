@@ -30,6 +30,7 @@ Contents
    :maxdepth: 1
 
    motion/tuning.md
+   motion/simulation.md
 
 .. toctree::
    :caption: Vision
