@@ -6,26 +6,26 @@
 </aside>
 
 > **Coordinate Guides:**
-> 
-> 
+>
+>
 > **X**: Front Back Axis
-> 
+>
 > **Y**: Up Down Axis
-> 
+>
 > **Z**: Right Left Axis
-> 
+>
 
 > **Shift** untuk pusat massa(pm) torso(badan)
-> 
-> 
+>
+>
 > **Lift** untuk posisi akhir kaki ketika mengangkat
-> 
+>
 > **Swing** untuk posisi akhir kaki ketika menendang
-> 
+>
 > **Retract** untuk posisi akhir kaki ketika menarik
-> 
+>
 
-## kicking_v10:
+## kicking_v10
 
 ```yaml
   Torso_X: 0.02 #[0.0015] Posisi Awal dan Akhir Torso sumbu X {-0.0015}

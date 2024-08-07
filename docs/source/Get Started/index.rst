@@ -22,4 +22,3 @@ Contents
 .. toctree::
 
    installation
-   ../Motion/tuning

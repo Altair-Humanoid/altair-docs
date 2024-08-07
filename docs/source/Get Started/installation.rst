@@ -36,7 +36,8 @@ To start development, first install the **workspace requrements**
    https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Install-Binary.html
 
 * Dynamixel SDK Installation
-.. code-block:: console
+.. code-block:: console  
+
    $ sudo apt install make cmake 
    $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
    $ cd DynamixelSDK/c++/build/linux64 && make && sudo make install
