@@ -19,6 +19,12 @@ how to `install` the project.
 Contents
 --------
 
+.. toctree::  
+   :caption: Home
+
+   index.rst
+
+
 .. toctree::
    :caption: Get Started
    :maxdepth: 1
