@@ -20,5 +20,13 @@ Contents
 --------
 
 .. toctree::
+   :caption: Get Started
+   :maxdepth: 1
 
-   installation
+   get-started/installation.rst
+
+.. toctree::
+   :caption: Motion
+   :maxdepth: 1
+
+   motion/tuning.md
