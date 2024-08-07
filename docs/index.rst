@@ -30,3 +30,21 @@ Contents
    :maxdepth: 1
 
    motion/tuning.md
+
+.. toctree::
+   :caption: Vision
+   :maxdepth: 1
+
+   vision/placeholder.md
+
+.. toctree::
+   :caption: Elektronis
+   :maxdepth: 1
+
+   elektronis/placeholder.md
+
+.. toctree::
+   :caption: Mekanis
+   :maxdepth: 1
+
+   mekanis/placeholder.md
