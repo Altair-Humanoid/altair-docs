@@ -22,4 +22,4 @@ Contents
 .. toctree::
 
    installation
-   api
+   ../Motion/tuning
