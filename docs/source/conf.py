@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Altair Docs'
+copyright = '2024, Altair'
+author = 'Altair'
 
 release = '0.1'
 version = '0.1.0'

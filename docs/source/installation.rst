@@ -22,17 +22,18 @@ To start development, first install the **workspace requrements**
 ++++++++++++++++++++++++++
 
 * Cloning The repo
-.. code-block:: console
-   $ git clone https://github.com/altair-underground/altair_ws.git
+
+   .. code-block:: console
+      $ git clone https://github.com/altair-underground/altair_ws.git
 
 * additional dependencies (sudo apt install):
 
-.. code-block:: console
-   $ sudo apt install ros-jazzy-yaml-cpp-vendor ros-jazzy-eigen3-cmake-module ros-jazzy-eigen-stl-containers ros-jazzy-tf2 ros-jazzy-tf2-ros ros-jazzy-tf2-eigen
+   .. code-block:: console
+      $ sudo apt install ros-jazzy-yaml-cpp-vendor ros-jazzy-eigen3-cmake-module ros-jazzy-eigen-stl-containers ros-jazzy-tf2 ros-jazzy-tf2-ros ros-jazzy-tf2-eigen
 
 * ROS 2 Jazzy Jalisco Installation 
-follow the link
-https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Install-Binary.html
+   follow the link
+   https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Install-Binary.html
 
 * Dynamixel SDK Installation
 .. code-block:: console
@@ -43,7 +44,7 @@ https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Install-Binary.ht
 **Build**
 +++++++++++++++++++++++++++
 
-Go to the root folder of altair_ws, 'before the src folder', then
+Go to the root folder of altair_ws, 'before the src folder', then  
 
 .. code-block:: console
    $ colcon build
