@@ -1,0 +1,6 @@
+sphinx
+sphinx-rtd-theme
+myst_parser
+sphinx-copybutton
+linkify-it-py
+sphinx-book-theme
