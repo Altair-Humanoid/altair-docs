@@ -5,9 +5,7 @@
 * Setup your sources.list
 
    ```console
-   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu \
-   $(lsb_release -sc) main" \
-   > /etc/apt/sources.list.d/ros-latest.list'
+   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
    ```
 
 * Set up your keys
