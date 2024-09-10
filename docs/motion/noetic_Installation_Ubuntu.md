@@ -1,18 +1,6 @@
-= Ubuntu install of ROS Noetic =
+## Ubuntu install of ROS Noetic
 
-[[http://build.ros.org|The ROS build farm]] builds Debian packages for several Ubuntu platforms, listed below. These packages are ready to use so you [[noetic/Installation/Source|don't have to build from source]]. You can check the status of individual packages [[http://repositories.ros.org/status_page/ros_noetic_default.html|here]].
-
-
-{{{#!wiki solid/blue
-Note that there are also packages available from Ubuntu upstream. Please see [[UpstreamPackages]] to understand the difference.
-}}}
-
-<<Include(SupportBuildfarm)>>
-
-<<TOC(3)>>
-
-
-== Installation ==
+# Installation
 
 <<Include(Installation/Ubuntu/Sources)>>
 
