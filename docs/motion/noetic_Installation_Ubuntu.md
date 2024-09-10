@@ -1,42 +1,44 @@
 ## Ubuntu install of ROS Noetic
 
-# Installation
+## Installation
 
-<<Include(Installation/Ubuntu/Sources)>>
+* Setup your sources.list
 
+   ```console
+   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   ```
 
-=== Installation ===
+* Set up your keys
 
-<<Include(noetic/Installation/DebianMetapackages)>>
+    ```console
+    sudo apt install curl # if you haven't already installed curl
+    curl -s <https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc> | sudo apt-key add -
+    ```
 
-<<Include(noetic/Installation/DebEnvironment)>>
+* Installation
 
-=== Dependencies for building packages ===
-Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces, there are various tools and requirements that are distributed separately. For example, [[rosinstall]] is a frequently used command-line tool that enables you to easily download many source trees for ROS packages with one command.
+    ```console
+    sudo apt update
+    sudo apt install ros-noetic-desktop-full
+    ```
 
-To install this tool and other dependencies for building ROS packages, run:
+* Environment Setup
 
-{{{
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-}}}
+    ```console
+    echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+    ```
 
+* Another Dependencies
 
-==== Initialize rosdep ====
+    ```console
+    sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+    ```
 
-Before you can use many ROS tools, you will need to initialize `rosdep`. `rosdep` enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. If you have not yet installed `rosdep`, do so as follows.
+* Initialize Rosdep
 
-{{{
-sudo apt install python3-rosdep
-}}}
-
-With the following, you can initialize `rosdep`.
-
-{{{
-sudo rosdep init
-rosdep update
-}}}
-
-<<Include(noetic/Installation/PostInstall)>>
-
-== ROS One-line Installation ==
-Check out [[http://wiki.ros.org/ROS/Installation/TwoLineInstall/|this tutorial]] to install ROS Noetic using a single command.
+    ```console
+    sudo apt install python3-rosdep
+    sudo rosdep init
+    rosdep update
+    ```
