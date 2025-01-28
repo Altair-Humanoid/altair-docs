@@ -29,6 +29,7 @@ docs/get-started/installation.rst
 
 docs/motion/noetic_Installation_Ubuntu.md
 docs/motion/tuning.md
+docs/motion/create_xacro.md
 docs/motion/simulation.md
 docs/motion/dynamixel_controller.md
 ```
